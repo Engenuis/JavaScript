@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: mediumturquoise;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    margin: 20px;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.805);
+}
+
+main{
+    width: 600px;
+    min-height: 300px;
+    margin-top: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.719);
+    border-radius: 30px;
+    padding: 20px;
+}
+
+main > form > input#iyear{
+    margin: 15px;
+    width: 200px;
+}
+
+main > form > span{
+    margin-right: 10px;
+}
+
+main > form > input[type = 'radio']{
+    margin: 10px;
+}
+
+main > form > input[type = 'button']{
+    display: block;
+    width: 80px;
+    margin: 10px auto;
+}
+
+main > form > p#text{
+    text-align: center;
+    margin-top: 35px;
+}
+
+main > form > img{
+    display: none;
+    margin: 20px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
